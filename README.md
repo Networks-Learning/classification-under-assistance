@@ -34,7 +34,7 @@ This code depends on the following packages:
 
 ## Execution
 
-####Test and generate the figures:
+#### Test and generate the figures:
 `python test.py --dataset=dataset_name --svm_type=soft_linear_with_offset`
 
 For example:
@@ -43,7 +43,7 @@ For example:
 The figures will be saved in `/plots` folder.
 
 
-####Run the algorithms:
+#### Run the algorithms:
 `python train.py --dataset=dataset_name --svm_type=soft_linear_with_offset`
 
 For example:
@@ -59,7 +59,7 @@ All the default parameters are set based on the paper. You can change them in th
 
 The results will be saved in `/Results` folder. The results corresponding to all datasets are already generated and saved in `/Results`.
 
-####Regenerate synthetic data:
+#### Regenerate synthetic data:
 **There is no need to run this script if you want to use the same synthetic data as mentioned in the paper**, but, if you wish to generate synthetic datasets with new settings you can modify the `generate_synthetic.py` script and then run:
 
 `python generate_synthetic.py name_of_the_synthetic_dataset`
@@ -71,7 +71,7 @@ Synthetic datasets : `['Linear','Kernel']`
 
 and then train and test to see the new results.
 
-####Change the human error for the real datasets:
+#### Change the human error for the real datasets:
 
 `python generate_human_error.py name_of_image_dataset`
 
