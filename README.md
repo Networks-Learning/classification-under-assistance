@@ -35,16 +35,16 @@ This code depends on the following packages:
 ## Execution
 
 #### Test and generate the figures:
-`python test.py --dataset=dataset_name --svm_type=soft_linear_with_offset`
+`python test.py --dataset=dataset_name --svm_type=svm_type`
 
 For example:
 `python test.py --dataset=Messidor --svm_type=soft_linear_with_offset`
 
 The figures will be saved in `/plots` folder.
-
+Available svm types: `['soft_linear_with_offset'(default), 'hard_linear_with_offset', 'soft_linear_without_offset', 'hard_linear_with_offset','soft_kernel_with_offset']`
 
 #### Run the algorithms:
-`python train.py --dataset=dataset_name --svm_type=soft_linear_with_offset`
+`python train.py --dataset=dataset_name --svm_type=svm_type`
 
 For example:
 `python train.py --dataset=Stare --svm_type=soft_linear_with_offset`
