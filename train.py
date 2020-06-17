@@ -19,7 +19,7 @@ def parse_command_line_input(dataset):
 
     if dataset == 'Messidor':
         threshold = 1.5
-        list_of_lamb = [0.01]
+        list_of_lamb = [0.03]
 
     if dataset == 'Stare':
         threshold = 0.5
