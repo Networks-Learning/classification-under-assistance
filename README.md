@@ -42,7 +42,7 @@ For example:
 
 The figures will be saved in `/plots` folder.
 
-Available datasets : `['Messidor', 'Stare', 'Aptos', 'Linear','Kernel']`
+Available datasets : `['Messidor', 'Stare', 'Aptos', 'Linear','Kernel','hard_linear']`
 
 Available svm types: `['soft_linear_with_offset'(default), 'hard_linear_with_offset', 'soft_linear_without_offset', 'hard_linear_without_offset','soft_kernel_with_offset']`
 
@@ -68,7 +68,7 @@ The results will be saved in `/Results` folder. The results corresponding to all
 For example:
 `python generate_synthetic.py Linear`
 
-Synthetic datasets : `['Linear','Kernel']`
+Synthetic datasets : `['Linear','hard_linear','Kernel']`
 
 and then train and test to see the new results.
 
