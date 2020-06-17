@@ -1,6 +1,6 @@
 # Classification Under Human Assistance
 
-This is a repository containing code and data for the paper:
+This is a repository containing the code and data for the paper:
 
 > A. De, N. Okati, A. Zarezade and M. Gomez-Rodriguez. _Classification Under Human Assistance._
 
@@ -25,7 +25,7 @@ This code depends on the following packages:
  - `test.py` testing and plotting script
  - `generate_human_error.py` generates human error for the image datasets.
  - `generate_synthetic.py` generates synthetic datasets.
-  - `preprocess.py` preprocessing and feature extraction of image datasets script
+ - `preprocess.py` preprocessing and feature extraction of image datasets script
  - `cross_validate.py` finds the best \lambda value using cross validation
  - `/Results` contains pretrained models
  - `/plots` contains the figures of the paper
