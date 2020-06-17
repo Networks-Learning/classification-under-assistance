@@ -46,16 +46,6 @@ import pickle
 # labels = np.array(labels)
 # indexes = np.array(indexes)
 # second_labels = np.array(second_labels)
-# print 'labels'
-# print np.count_nonzero(labels==0)
-# print np.count_nonzero(labels==1)
-# print np.count_nonzero(labels==2)
-# print np.count_nonzero(labels==3)
-# print 'second labels'
-# print np.count_nonzero(second_labels==0)
-# print np.count_nonzero(second_labels==1)
-# print np.count_nonzero(second_labels==2)
-# print np.count_nonzero(second_labels==3)
 # data = np.array(data)
 # data /= 255.0
 
