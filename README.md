@@ -41,7 +41,8 @@ For example:
 `python test.py --dataset=Messidor --svm_type=soft_linear_with_offset`
 
 The figures will be saved in `/plots` folder.
-Available svm types: `['soft_linear_with_offset'(default), 'hard_linear_with_offset', 'soft_linear_without_offset', 'hard_linear_with_offset','soft_kernel_with_offset']`
+
+Available svm types: `['soft_linear_with_offset'(default), 'hard_linear_with_offset', 'soft_linear_without_offset', 'hard_linear_without_offset','soft_kernel_with_offset']`
 
 #### Run the algorithms:
 `python train.py --dataset=dataset_name --svm_type=svm_type`
