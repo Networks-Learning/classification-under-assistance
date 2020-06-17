@@ -12,3 +12,5 @@ def latexify():
     plt.rc('ytick', labelsize=30)
     plt.rc('font',weight='bold')
     plt.rc('text.latex', preamble=r'\usepackage{amsmath}\usepackage{amsfonts}\usepackage{amssymb}')
+
+    
