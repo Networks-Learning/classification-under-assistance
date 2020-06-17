@@ -42,19 +42,19 @@ For example:
 
 The figures will be saved in `/plots` folder.
 
+Available datasets : `['Messidor', 'Stare', 'Aptos', 'Linear','Kernel']`
+
 Available svm types: `['soft_linear_with_offset'(default), 'hard_linear_with_offset', 'soft_linear_without_offset', 'hard_linear_without_offset','soft_kernel_with_offset']`
+
+- Messidor, Stare and Aptos are the real datasets.
+
+- Linear and Kernel are the synthetic datasets.
 
 #### Run the algorithms:
 `python train.py --dataset=dataset_name --svm_type=svm_type`
 
 For example:
 `python train.py --dataset=Stare --svm_type=soft_linear_with_offset`
-
-Available datasets : `['Messidor', 'Stare', 'Aptos', 'Linear','Kernel']`
-
-- Messidor, Stare and Aptos are the real datasets.
-
-- Linear and Kernel are the synthetic datasets.
 
 All the default parameters are set based on the paper. You can change them in the code.
 
