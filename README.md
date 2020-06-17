@@ -1,5 +1,11 @@
 # Classification Under Human Assistance
 
+This is a repository containing code and data for the paper:
+
+> A. De, N. Okati, A. Zarezade and M. Gomez-Rodriguez. _Classification Under Human Assistance._
+
+The paper is available [on archive](TBD).
+
 ## Pre-requisites
 
 This code depends on the following packages:
