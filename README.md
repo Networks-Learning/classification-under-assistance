@@ -4,7 +4,7 @@ This is a repository containing the code and data for the paper:
 
 > A. De, N. Okati, A. Zarezade and M. Gomez-Rodriguez. _Classification Under Human Assistance._
 
-The paper is available [on archive](TBD).
+The paper is available [on archive](https://arxiv.org/pdf/2006.11845.pdf).
 
 ## Pre-requisites
 
