@@ -4,7 +4,7 @@ This is a repository containing the code and data for the paper:
 
 > A. De, N. Okati, A. Zarezade and M. Gomez-Rodriguez. _Classification Under Human Assistance._
 
-The paper is available [on archive](https://arxiv.org/pdf/2006.11845.pdf).
+The paper is published in AAAI'21 and can be found [here](https://aaai.org/papers/05905-classification-under-human-assistance/).
 
 ## Pre-requisites
 
